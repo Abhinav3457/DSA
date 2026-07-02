@@ -1,4 +1,11 @@
 /*
+in this problem top view i used the approach in which we measure the horizontal distance and check if 
+a horizontal distance is already present in the map or not if it is not present then we add it to the map and 
+then we push the left and right child of the node into the queue with horizontal distance -1 and +1 respectively
+and then we finally return the values of the map in the vector which will be the top view of the tree
+*/
+
+/*
 class Solution {
   public:
     vector<int> topView(Node *root) {
@@ -35,11 +42,4 @@ class Solution {
         return ans;
     }
 };
-*/
-
-/*
-in this problem top view i used the approach in which we measure the horizontal distance and check if 
-a horizontal distance is already present in the map or not if it is not present then we add it to the map and 
-then we push the left and right child of the node into the queue with horizontal distance -1 and +1 respectively
-and then we finally return the values of the map in the vector which will be the top view of the tree
 */
