@@ -2,7 +2,6 @@
 in this just we have to look the level as it is is unique then add the current pointing node data and 
 then we will check that our arraywas filled upto to that level like if level is 2 so our vector has 2 value and if level was 2 again and our ans sie was 2 so we didnpt take that value in it .
 hence we get that answer vector then we return it as the left view of the tree.
-
 */
 
 /*
