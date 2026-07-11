@@ -9,8 +9,10 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// ............................................................................................................................................................
 // take every index of the prorder as root and find that index in the inorder and then call the left and right 
 // subtree recursively. And we just need to keep track of the index of preorder so that we can take the next element as root.
+// .............................................................................................................................................................
 /*
     void fillitup(vector<int>&inorder,map<int,int>&store){
         for(int i=0;i<inorder.size();i++){
